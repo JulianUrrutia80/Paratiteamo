@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+    background-image: url(../img/corazon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+header {
+    padding: 10rem;
+    color: rgb(83, 43, 43);
+}
+
+header h1, header p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header p {
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
+main {
+    justify-content: right;
+    padding: 5rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer {
+    background-image: none;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: 2px black;
+    border-style: double;
+    padding: 1rem;
+    height: 10vh;
+}
+
+footer p{
+    text-align: center;
+    font-size: 2rem;
+}
